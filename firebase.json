@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/eeng-class-project",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

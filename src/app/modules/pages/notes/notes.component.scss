@@ -1,0 +1,29 @@
+.main-container{
+    .description-container{
+        padding: 5%;
+        h2{
+            text-align: center;
+        }
+    }
+    .notes-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .notes-container{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .add-notes-container{
+        p{
+            text-align: center;
+        }
+    }
+}

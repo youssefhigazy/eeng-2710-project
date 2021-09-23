@@ -1,0 +1,29 @@
+.main-container{
+    .common-calculators-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .description-container{
+            h1{
+                text-align: center;
+            }
+        }
+        .links-container{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .other-calculators-container{
+        padding: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}

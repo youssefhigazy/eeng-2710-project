@@ -1,0 +1,35 @@
+#header{
+    background-color: #242423;
+    color: #E8EDDF;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .logo-container{
+        cursor: pointer;
+        font-weight: 800;
+        &:hover{
+            color: #F5CB5C;
+        }
+    }
+    .subtabs-container{
+        ul{
+            padding: 0px;
+            list-style: none;
+            margin-bottom: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            li{
+                margin: 8px;
+                cursor: pointer;
+                &:hover{
+                    color: #F5CB5C;
+                }
+            }
+        }
+    }
+}

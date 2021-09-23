@@ -1,0 +1,29 @@
+.main-container{
+    .description-container{
+        padding: 5%;
+        h2{
+            text-align: center;
+        }
+    }
+    .documents-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .document-container{
+            ul{
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    .add-documents-container{
+        p{
+            text-align: center;
+        }
+    }
+}
