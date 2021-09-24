@@ -9,6 +9,7 @@
     </div>
     <div class="calculator" [formGroup]="form">
         <input (keyup.enter)="convertToOctal()" formControlName="binary_number" placeholder="Enter a Binary">
+        <button (click)="convertToOctal()" class="btn btn-primary">Calculate</button>
     </div>
     <div class="other-calculators-container">
         <h3>Other Calculators</h3>
